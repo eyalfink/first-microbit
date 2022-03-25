@@ -1,0 +1,7 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_gesture_event" id="5=6N/k+$n|nQ|?@JGUF{" x="627" y="0"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="playMelody" id="xJE9M+:~]G7sseiC)WF|"><value name="melody"><shadow type="melody_editor" id="V(x=0WM-/~kAV*%duhm["><field name="melody">"G E E F D D C D "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="SFj2fL%y[Fc(.O)RW}12"><mutation min="40" max="500" label="Tempo" precision="0"/><field name="SLIDER">120</field></shadow></value><next><block type="device_show_leds" id=";H^QLJ@C,n(GgaJ7E~2F"><field name="LEDS">`
+        . # . # . 
+        # # # # # 
+        # # # # # 
+        . # # # . 
+        . . # . .
+        `</field></block></next></block></statement></block><block type="device_button_event" id="VDBp/`5LWrtN#aBol*H#" x="67" y="117"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="playMelody" id="`u0~G9~jK[H+zA~GyuQE"><value name="melody"><shadow type="melody_editor" id=",0;3`B(5OFBF;ax,)TR#"><field name="melody">"C5 B A G F E D C "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="f@$J$V8IZY1*:E:FRqNa"><mutation min="40" max="500" label="Tempo" precision="0"/><field name="SLIDER">120</field></shadow></value></block></statement></block></xml>
